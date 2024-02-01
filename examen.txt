@@ -1,0 +1,35 @@
+public class Evaluacion 
+{
+
+
+private static Scanner teclado;
+public static void main(String[]args, int n1){
+	for (n1=1; n1<=n1; n1++);
+	
+	
+	
+	
+	
+	
+	System.out.print("¿Cuantas personas son?");
+	String nombre = teclado.next();
+	
+	
+	System.out.print("Introduce tu nombre:");
+	nombre = teclado.next();
+	
+	
+	int n11;
+	System.out.println( "Nivel De Glucosa:"); 
+	n11=teclado.nextInt();
+	
+	
+	if (n11<100)
+		System.out.println( "FELICIDADES TU NIVEL DE GLUCOSA ESTA BIEN ");
+	
+
+	else
+		if (n11>=100)
+			System.out.println( nombre  + " requiere tratamiento ");
+	
+	
